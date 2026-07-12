@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: api.met.no
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov  7 06:51:30 2026 GMT
+  hsts: false
+domains:
+- domain: met.no
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://api.met.no/weatherapi/documentation
 common:
+  - type: VulnerabilityDisclosure
+    url: security/meteorologisk-institutt-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/meteorologisk-institutt-domain-security.yml
   - type: Website
     url: https://api.met.no/weatherapi/documentation
   - type: PublicAPIsListing
