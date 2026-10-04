@@ -39,7 +39,6 @@ apis:
   - name: Meteorologisk Institutt
     description: "Weather and climate data"
     humanURL: https://api.met.no/weatherapi/documentation
-    baseURL: https://api.met.no/weatherapi/documentation
     tags:
       - Weather
     properties:
